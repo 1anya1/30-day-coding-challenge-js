@@ -29,4 +29,6 @@ function uniqueinOrder(sequence){
 }
 
 console.log(uniqueinOrder("AAAABBBCCDAABBB"))
+//[ 'A', 'B', 'C', 'D', 'A', 'B' ]
 console.log(uniqueinOrder(["1", "2", "2", "3", "3"]))
+//[ '1', '2', '3' ]

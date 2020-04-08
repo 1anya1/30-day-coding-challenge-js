@@ -1,3 +1,10 @@
+
+var playerName = prompt('Whats your name?')
+player.innerHTML = `Player: ${playerName}`;
+
+var gameScore = 0
+score.innerHTML = `My Score = ${gameScore}`;
+
 var words = [
     'dog',
     'cat',
@@ -32,7 +39,7 @@ while (tries < (word.length+6) ) {
         alert("Please enter a single letter")
     } else{
         for(var j=0; j < word.length; j++){
-            if(word[j] === guess && answerArray[j]!== guess){
+            if(word[j] === guess.toLowerCase() && answerArray[j]!== guess.toLowerCase()){
                 console.log(`iteration of the word: ${word[j]}`)
                 answerArray[j] = guess;
                 remainingLetters --;
@@ -46,6 +53,7 @@ while (tries < (word.length+6) ) {
     } else {
         if(remainingLetters===0){
             alert('congrats you won')
+            score ++;
             break;
         }
     }

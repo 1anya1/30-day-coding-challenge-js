@@ -29,12 +29,11 @@
 var x=8;
 var y=8;
 
-var chessBoard = '';
+var chessBoard = [];
+var row =''
 
-for (var i=0; i<y; i++){
-    var row = 'x'
-    for (var j=0; j<x; j++){
-        row+='o'
-    }
+chessBoard.push(row)
+for(let i=0; i<y; i++){
+    row+='x'
 }
 console.log(chessBoard)

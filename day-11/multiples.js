@@ -5,7 +5,7 @@
 // the multiples of 3 or 5 below the number passed in
 
 function solution(number){
-    //creating an array that will 
+    //creating an array that will store all the nums from the numbe
     const arr = []
     for(let i=1; i<number; i++){
     arr.push(i)

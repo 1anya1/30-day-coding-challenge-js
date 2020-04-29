@@ -10,3 +10,14 @@
 // testJackpot(["&&", "&", "&&&", "&&&&"]) ➞ false
 
 // testJackpot(["SS", "SS", "SS", "Ss"]) ➞ false
+
+
+function testJackpot(result) {
+	const arr = result[0];
+	return result.every(el => el===arr)
+}
+
+
+console.log(testJackpot(['@', '@', '@', '@']));
+//true
+console.log(testJackpot(['@', '@', '@', 'i']));

@@ -6,3 +6,25 @@
 
 // indexMultiplier([-3, 0, 8, -6]) ➞ -2
 // // (-3*0 + 0*1 + 8*2 + -6*3)
+
+
+function multiplier(arr) {
+    const newArr=[];
+    for(let i=0; i<arr.length; i++){
+        newArr.push(arr[i]*i)
+    }
+    return newArr.length>0 ? newArr.reduce((total, el)=> total+el) : 0
+}
+
+console.log(multiplier([1,2,4,5]));
+
+//25
+
+// another way to do it is to add the index value to the reduce function
+
+function mult(arr){
+    return arr.reduce((total, el, i)=> total + (el*i))
+
+}
+
+console.log(mult([1,2,4,5]));

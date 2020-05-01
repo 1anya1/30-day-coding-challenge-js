@@ -6,3 +6,9 @@
 // removeDups(["The", "big", "cat"]) ➞ ["The", "big", "cat"]
 
 // removeDups(["John", "Taylor", "John"]) ➞ ["John", "Taylor"]
+
+function removeDups(arr) {
+    return uniq = [...new Set(arr)];
+    }
+
+    console.log(removeDups(['John', 'Taylor', 'John']))

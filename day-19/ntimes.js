@@ -9,3 +9,20 @@
 // evenOddTransform([0, 0, 0], 10) ➞ [-20, -20, -20]
 
 // evenOddTransform([1, 2, 3], 1) ➞ [3, 0, 5]
+
+function transform ( arr, n){
+    const arr2=[]
+    for(i of arr){
+        if(i%2===0){
+           arr2.push(i-2*n)
+        }
+        else{
+            arr2.push(i+2*n)
+
+        }
+    }
+    return arr2
+}
+console.log(transform([1, 2, 3], 1))
+
+//[3,0,5]

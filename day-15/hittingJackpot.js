@@ -21,3 +21,4 @@ function testJackpot(result) {
 console.log(testJackpot(['@', '@', '@', '@']));
 //true
 console.log(testJackpot(['@', '@', '@', 'i']));
+//false 

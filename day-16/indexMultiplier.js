@@ -23,7 +23,15 @@ console.log(multiplier([1,2,4,5]));
 // another way to do it is to add the index value to the reduce function
 
 function mult(arr){
-    return arr.reduce((total, el, i)=> total + (el*i))
+    return arr.reduce((total, el, i )=>{
+
+     el * i + total
+     console.log(i)
+     console.log(el)
+     console.log(total)
+    
+    })
+    
 
 }
 

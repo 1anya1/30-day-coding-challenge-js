@@ -39,3 +39,11 @@ console.log(changeEnough([10, 0, 0, 50], 13.85));
 console.log(changeEnough([1, 0, 5, 219], 19.99));
 console.log(changeEnough([1, 0, 2555, 219], 127.75));
 console.log(changeEnough([1, 335, 0, 219], 35.21));
+//Answers 
+// false
+// true
+// true
+// false
+// false
+// true
+// true

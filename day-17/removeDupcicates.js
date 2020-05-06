@@ -12,3 +12,5 @@ function removeDups(arr) {
     }
 
     console.log(removeDups(['John', 'Taylor', 'John']))
+
+    //[ 'John', 'Taylor' ]

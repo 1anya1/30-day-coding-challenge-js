@@ -18,3 +18,12 @@ function reverseBinary(num){
 
 console.log(reverseBinary(10))
 //5
+
+console.log(parseInt('234567', 2))
+
+let number = 11
+
+let numString = number.toString(2)
+console.log(numString)
+
+console.log(parseInt(numString ,2))

@@ -8,3 +8,20 @@
 // era(23, 99.1) ➞ 2.08
 
 // era(24, 99.2) ➞ 2.17
+
+
+era = ((er, ip) => {
+    //creating aFixed with 3 decimal points bc we have can not roumd the second number
+    let total = ((er/ip)*9).toFixed(3).split('');
+    //using pop method to remove the last index from the array 
+    total.pop();
+    //Joining the array and returning a srting 
+    return total.join('')
+
+});
+
+console.log(era(22, 99))
+//2.00
+
+console.log(era(24, 99.2))
+//2.17

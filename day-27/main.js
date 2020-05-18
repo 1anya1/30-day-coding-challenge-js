@@ -22,3 +22,7 @@ function sensor(str) {
 
 
 console.log(sensor("The code is fourty"))
+//The code is ******
+
+console.log(sensor("Two plus three is five"))
+//Two plus ***** is five

@@ -7,3 +7,7 @@ const times = [
   ];
 
   console.log(times[0].startTime)
+
+  for(let i =0; i< times; i++){
+      
+  }

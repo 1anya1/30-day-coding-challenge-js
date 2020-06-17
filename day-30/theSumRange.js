@@ -29,3 +29,4 @@ function sum(arr) {
 // console.log(arr.length)
 // console.log(sum(arr))
 console.log(sum(range(1,10,1)))
+//55
